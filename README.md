@@ -10,3 +10,8 @@ Each team will be granted with predefined domain, token, and username(email). Wi
 
 As Hive is still in the proof of concept, participants can find some bugs or features that can be fixed or have better implementations. I think if students can explain with an argument the problem that they found, they can be rewarded with some points for their team.
 
+[HIVE API](./HIVE_API.md)
+
+[DEFAULT SERVICE](./DEFAULT_SERVICE.md)
+
+[SERVICE](./SERVICE.md)
