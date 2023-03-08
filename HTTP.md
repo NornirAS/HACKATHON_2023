@@ -6,7 +6,7 @@
 
 **method** = POST
 
-**baseBody** = token={{ token }}&objectID={{ ghostID }} 
+**baseBody** = token={{ token }}&objectID={{ ghostID }}
 
 ## Send 
 
