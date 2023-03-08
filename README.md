@@ -15,3 +15,9 @@ As Hive is still in the proof of concept, participants can find some bugs or fea
 [DEFAULT SERVICE](./DEFAULT_SERVICE.md)
 
 [SERVICE](./SERVICE.md)
+
+## Communication
+
+[HTTP](./HTTP.md)
+
+[WEBSOCKET](./WEBSOCKET.md)
