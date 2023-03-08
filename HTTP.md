@@ -47,3 +47,5 @@ curl -k {{ serviceURL }} -H "Synx-Cat: 1" -d "token={{ token }}&objectID={{ ghos
 ### Example Receive:
 
 curl -k {{ serviceURL }} -H "Synx-Cat: 4" -d "token={{ token }}&objectID={{ ghostID }}"
+
+[JavaScript Library](https://github.com/NornirAS/hive-agent/blob/main/src/http/README.md)
