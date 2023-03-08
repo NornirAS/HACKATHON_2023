@@ -22,4 +22,4 @@
 
 ## Add morphed ghost
 
-## remove morphed ghost
+## Remove morphed ghost
