@@ -6,13 +6,13 @@ To be able to send and receive data to and from Hive, a user should be able to o
 
 **ghostAddress** = {{ domain }}/{{ service }}/{{ objectID }}
 
-**wsURL** = wss://websocket.cioty.com/{{ ghostAddress }}/channel
+**serviceURL** = wss://websocket.cioty.com/{{ ghostAddress }}/channel
 
 **token** = {{ token }}
 
 ## How to
 
-  1. Create a WS instance using the given {{ wsURL }}.
+  1. Create a WS instance using the given {{ serviceURL }}.
   2. Once WS is opened, a user should send a given token as part of authentication. The token should be sent as a JSON string. WS send “{\”token\”:\”token\”}”
   3. Listen for messages. The message will come in JSON.
   4. Handle messages. All messages are wrapped inside the RTW object. Everything inside is data that you can work with. Example:
