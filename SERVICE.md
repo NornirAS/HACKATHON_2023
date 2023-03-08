@@ -1,6 +1,6 @@
 # Service
 
-Is a program that should have input and output that should be sent back to the network. Each service should be documented so anyone can understand what it’s doing. Documentation should contain:
+Is a program that should send some data into the network, AI generated result, sensor data and etc... Each service should be documented so anyone can understand what it’s doing. Documentation should contain:
 
   - **Overview**. Brief description of what the service is doing.
   - **Data schema**. For example: if you have a schema with 2 elements, input, and output then people most likely need to know only about the output element. Combined with the service overview this should provide enough information for end users.
