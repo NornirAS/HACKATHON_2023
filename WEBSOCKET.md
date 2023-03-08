@@ -4,9 +4,11 @@ To be able to send and receive data to and from Hive, a user should be able to o
 
 ## Connection Point
 
-ghostAddress = {{ domain }}/{{ service }}/{{ objectID }}
-wsURL = wss://websocket.cioty.com/{{ ghostAddress }}/channel
-token = {{ token }}
+**ghostAddress** = {{ domain }}/{{ service }}/{{ objectID }}
+
+**wsURL** = wss://websocket.cioty.com/{{ ghostAddress }}/channel
+
+**token** = {{ token }}
 
   1. Create a WS instance using the given {{ wsURL }}.
   2. Once WS is opened, a user should send a given token as part of authentication. The token should be sent as a JSON string. WS send “{\”token\”:\”token\”}”
