@@ -10,6 +10,8 @@ To be able to send and receive data to and from Hive, a user should be able to o
 
 **token** = {{ token }}
 
+## How to
+
   1. Create a WS instance using the given {{ wsURL }}.
   2. Once WS is opened, a user should send a given token as part of authentication. The token should be sent as a JSON string. WS send “{\”token\”:\”token\”}”
   3. Listen for messages. The message will come in JSON.
