@@ -10,7 +10,7 @@
 
 ## Send 
 
-To send data you will need to send POST request using “Synx-Cat 1” in the header section against your own service. With HTTP data sent as query string where, each data element is a key.
+To send data you will need to send POST request using "Synx-Cat 1" in the header section against your own service. With HTTP data sent as query string where, each data element is a key.
 
 body = {{ baseBody }}&output={{ yourServiceOutputValue }}”
 
@@ -25,7 +25,7 @@ body = {{ baseBody }}&output={{ yourServiceOutputValue }}”
 
 ## Receive 
 
-To receive data you will need to send a POST request using “Synx-Cat 4” in the header section. We use long pooling, so the response body will contain an object with a readable stream. Depending on the language you should be able to read this stream. JavaScript examples are provided at the end of this document. 
+To receive data you will need to send a POST request using "Synx-Cat 4" in the header section. We use long pooling, so the response body will contain an object with a readable stream. Depending on the language you should be able to read this stream. JavaScript examples are provided at the end of this document. 
 
 body = baseBody
 
