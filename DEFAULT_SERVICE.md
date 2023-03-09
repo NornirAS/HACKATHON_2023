@@ -1,9 +1,17 @@
 # Default service
 
-This is an example service that will constantly send data and will be available for all participants. The data can be uset for any kind of scenario.
-
+This is an example service that will constantly send data and will be available for all participants. The data can be used for any kind of scenarios. Data is taken from a data set and will be sent in random order.
 
 Problem Type : Binary Classification
+
+### Data Schema
+
+```xml
+<RTW>
+  <SENDER></SENDER> <!--Sender element is THIS serviceAddress. You need to know where data comming from-->
+  <PAYLOAD></PAYLOAD> <!--Will be a JSON string that contains all the data from data model below-->
+</RTW>
+```
 
 ## Data model
 
@@ -21,6 +29,14 @@ Problem Type : Binary Classification
   - NC1.0(Number concentration of particulate matter. This differs from PM because NC gives the actual number of particles in the air. The raw NC is also classified by the particle size: < 0.5 µm (NC0.5); 0.5 µm < 1.0 µm (NC1.0); 1.0 µm < 2.5 µm (NC2.5);)
   - NC2.5(Number concentration of particulate matter. This differs from PM because NC gives the actual number of particles in the air. The raw NC is also classified by the particle size: < 0.5 µm (NC0.5); 0.5 µm < 1.0 µm (NC1.0); 1.0 µm < 2.5 µm (NC2.5))
   - CNT(Sample counter)
+
+## Links
+
+
+
+## Ghost
+
+Each team will have 1 ghost from that service.
   
 ## Examples of use case
 
