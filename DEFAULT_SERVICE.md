@@ -32,7 +32,9 @@ Problem Type : Binary Classification
 
 ## Links
 
+serviceAddress = hackathon/default
 
+To add link to this service update links of your service with serviceAddress above.
 
 ## Ghost
 

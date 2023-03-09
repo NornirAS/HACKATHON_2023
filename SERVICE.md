@@ -17,8 +17,8 @@ This is an AI service. I process data from the sensor and share results with the
 
 ```xml
 <RTW>
-  <INPUT></INPUT> <!--Private. You don’t need to share that element with anyone else-->
-  <OUTPUT></OUTPUT> <!--Public. This element is for the linking from the other services-->
+  <SENDER></SENDER>
+  <PAYLOAD></PAYLOAD>
 </RTW>
 ```
 
@@ -48,7 +48,7 @@ Example below showes how service B data schema should look like to be able recei
 
 ### Ghosts
 
-Exaplin how other teams can get a ghost from your service.
+Explain how other teams can get a ghost from your service.
 
   - Contact one of team members.
   - Provide UI.
