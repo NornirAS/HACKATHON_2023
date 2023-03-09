@@ -16,10 +16,10 @@ body = {{ baseBody }}&output={{ yourServiceOutputValue }}”
 
 **headers**
 
-```json
+```javascript
 {
-	"Content-Type": "application/x-www-form-urlencoded"
-  "Synx-Cat": "1"
+	"Content-Type": "application/x-www-form-urlencoded",
+  "Synx-Cat": "1",
 }
 ```
 
@@ -31,10 +31,10 @@ body = baseBody
 
 **headers**
 
-```json
+```javascript
 {
-	"Content-Type": "application/x-www-form-urlencoded"
-  "Synx-Cat": "4"
+	"Content-Type": "application/x-www-form-urlencoded",
+  "Synx-Cat": "4",
 }
 ```
 
