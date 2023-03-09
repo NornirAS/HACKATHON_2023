@@ -12,14 +12,14 @@
 
 To send data you will need to send POST request using "Synx-Cat 1" in the header section against your own service. With HTTP data sent as query string where, each data element is a key.
 
-body = {{ baseBody }}&output={{ yourServiceOutputValue }}”
+body = {{ baseBody }}&output={{ yourServiceOutputValue }}
 
 **headers**
 
 ```javascript
 {
 	"Content-Type": "application/x-www-form-urlencoded",
-  "Synx-Cat": "1",
+  "Synx-Cat": "1"
 }
 ```
 
@@ -34,7 +34,7 @@ body = baseBody
 ```javascript
 {
 	"Content-Type": "application/x-www-form-urlencoded",
-  "Synx-Cat": "4",
+  "Synx-Cat": "4"
 }
 ```
 
