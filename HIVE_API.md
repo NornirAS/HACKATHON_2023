@@ -10,6 +10,10 @@
 
 ## Update links
 
+## Get ghost
+
+## Get pending ghosts
+
 ## Transfer ownership of a ghost
 
 ## Accept ghost
