@@ -4,7 +4,7 @@ Build a collection of services for processing data, analyzing trends, and trigge
 
 ## Setup
 
-Each team will be granted with predefined domain, token, and username(email). With this setup, they will be able to perform all necessary API calls listed below.
+Each team will be granted with predefined domain, service, token, authToken, and username(email). With this setup, they will be able to perform all necessary API calls listed below.
 
 ## Bounty program
 
