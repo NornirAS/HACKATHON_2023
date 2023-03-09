@@ -16,10 +16,10 @@ body = {{ baseBody }}&output={{ yourServiceOutputValue }}
 
 **headers**
 
-```javascript
+```json
 {
-	"Content-Type": "application/x-www-form-urlencoded",
-  "Synx-Cat": "1"
+	"Content-Type":"application/x-www-form-urlencoded",
+  "Synx-Cat":"1"
 }
 ```
 
@@ -31,10 +31,10 @@ body = baseBody
 
 **headers**
 
-```javascript
+```json
 {
-	"Content-Type": "application/x-www-form-urlencoded",
-  "Synx-Cat": "4"
+	"Content-Type":"application/x-www-form-urlencoded",
+  "Synx-Cat":"4"
 }
 ```
 
@@ -42,10 +42,14 @@ body = baseBody
 
 ### Example Send:
 
+```bash
 curl -k {{ serviceURL }} -H "Synx-Cat: 1" -d "token={{ token }}&objectID={{ ghostID }}&output={{ yourServiceOutputValue }}"
+```
 
 ### Example Receive:
 
+```bash
 curl -k {{ serviceURL }} -H "Synx-Cat: 4" -d "token={{ token }}&objectID={{ ghostID }}"
+```
 
 [JavaScript Library](https://github.com/NornirAS/hive-agent/blob/main/src/http/README.md)
