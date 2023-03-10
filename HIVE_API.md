@@ -19,6 +19,7 @@ We are not gonna use all the features, so below is bare minimum you need to crea
   "service":"{{service}}",
   "token":"{{token}}",
   "authToken":"{{authToken}}",
+  "username":"{{username}}",
   "dataSchema":"{{dataSchema}}",
   "timeout":"{{timeout}}",
 }
