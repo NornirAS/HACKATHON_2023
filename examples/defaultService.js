@@ -28,7 +28,8 @@ const processLineByLine = async () => {
         ['NC0.5']: data['NC0.5'],
         ['NC1.0']: data['NC1.0'],
         ['NC2.5']: data['NC2.5'],
-        CNT: data.CNT
+        CNT: data.CNT,
+        ['Fire Alarm']: data['Fire Alarm']
       })
     })
     .on('end', () => {
