@@ -16,7 +16,7 @@ Each team will be granted with predefined domain, service, token, authToken, and
 
 #### Read about the service in **EXAMPLES** section below.
 
-2. Create your own service. Use **Create Service** API to do so.
+2. Create your own service. Use **Create Service** [API] (./#create-service) to do so.
 
 3. Assign 1 ghost to that service. Use **Add Ghost** API to do so.
 
