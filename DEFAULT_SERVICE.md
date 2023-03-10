@@ -1,8 +1,9 @@
 # Default service
 
-This is an example service that will constantly send data and will be available for all participants. The data can be used for any kind of scenarios. Data is taken from a data set and will be sent in random order.
+This is an example service that will constantly send data and will be available for all participants. The data can be used for any kind of scenarios. 
+Data is taken from a Kaggle [Smoke Detection Dataset | Kaggle](https://www.kaggle.com/datasets/deepcontractor/smoke-detection-dataset) and The dataset is nearly 60.000 readings long.
 
-Problem Type : Binary Classification
+**Problem Type** : Machine learning, supervised learning algorithm binary classification.
 
 ### Data Schema
 
