@@ -18,7 +18,7 @@ Each team will be granted with predefined domain, service, token, authToken, and
 
 2. Create your own service. Use **Create Service** [API](https://github.com/NornirAS/HACKATHON_2023/blob/main/HIVE_API.md#create-service) to do so.
 
-3. Assign 1 ghost to that service. Use **Add Ghost** [API] (https://norniras.github.io/synx-hive-api-docs/#accept-ghost) to do so.
+3. Assign 1 ghost to that service. Use **Add Ghost** [API](https://norniras.github.io/synx-hive-api-docs/#accept-ghost) to do so.
 
 4. Test the communication for that service.
 
