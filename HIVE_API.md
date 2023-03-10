@@ -18,6 +18,7 @@ We are not gonna use all the features, so below is bare minimum you need to crea
   "rootDomain":"{{rootDomain}}",
   "service":"{{service}}",
   "token":"{{token}}",
+  "authToken":"{{authToken}}",
   "dataSchema":"{{dataSchema}}",
   "timeout":"{{timeout}}",
 }
