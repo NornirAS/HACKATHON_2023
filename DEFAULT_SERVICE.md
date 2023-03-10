@@ -1,7 +1,7 @@
 # Default service
-
-This is an example service that will constantly send data and will be available for all participants. The data can be used for any kind of scenarios. 
-Data is taken from a Kaggle [Smoke Detection Dataset | Kaggle](https://www.kaggle.com/datasets/deepcontractor/smoke-detection-dataset) and The dataset is nearly 60.000 readings long.
+This is an example service that will constantly send data and will be available for all participants. Collection of training data is performed with the help of IOT devices since the goal is to develop a AI based smoke detector device. The data can be used for any kind of scenarios. 
+Data is taken from a Kaggle [Smoke Detection Dataset | Kaggle](https://www.kaggle.com/datasets/deepcontractor/smoke-detection-dataset) and 
+The dataset is nearly 60.000 readings long.
 
 **Problem Type** : Machine learning, Supervised learning algorithm binary classification.
 
