@@ -10,7 +10,7 @@ Each team will be granted with predefined domain, service, token, authToken, and
 
 ## Flow
 
-1. To test that you can receive data from **Default Service** you need to see if you have ghosts for that service. Use **Get Ghosts** [API](./HIVE_API.md#get-ghost) to get all your ghosts. Once you got ghosts, you have everything to start the communication. Examples can be found below in [**COMMUNICATION**](#communication) section.
+1. To test that you can receive data from **Default Service** you need to see if you have ghosts for that service. Use **Get Ghosts** [API](https://github.com/NornirAS/HACKATHON_2023/blob/main/HIVE_API.md#get-ghost) to get all your ghosts. Once you got ghosts, you have everything to start the communication. Examples can be found below in [**COMMUNICATION**](#communication) section.
 
 #### Read about the service in **EXAMPLES** section below.
 
