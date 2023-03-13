@@ -5,7 +5,7 @@ const test = createHiveWS({
   type: 'channel',
   token,
   rootDomain,
-  ghostAddress: 'hackathon/receiver/1',
+  ghostAddress: 'devs/service404/1',
 })
 
 test.open(data => {
