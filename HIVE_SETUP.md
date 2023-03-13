@@ -20,9 +20,9 @@ Each team will be granted with predefined domain, service, token, authToken, and
 
 4. Test the communication for that service.
 
-5. Add link to **Default Service**. Use **Update Links** API to do so.
+5. Add link to **Default Service**. Use **Update Links** [API](https://github.com/NornirAS/HACKATHON_2023/blob/main/HIVE_API.md#update-links) to do so.
 
-6. Even there are links between services, you need to tell the system what ghosts should talk to each other. Use **Add Morphed Ghost** API to do so. **NB!** refDomain, refService, refGhostID is from service that you lionking to. If service B linking to A, then you add ghost from service A to service B.
+6. Even there are links between services, you need to tell the system what ghosts should talk to each other. Use **Add Morphed Ghost** [API](https://github.com/NornirAS/HACKATHON_2023/blob/main/HIVE_API.md#add-morphed-ghost) to do so. **NB!** refDomain, refService, refGhostID is from service that you lionking to. If service B linking to A, then you add ghost from service A to service B.
 
 7. Test the communication. You should be able to receive the data from **Default Service**.
 
