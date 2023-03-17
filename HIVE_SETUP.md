@@ -6,7 +6,7 @@ Everyone can use a Hive UI. It was build with limited features to make it more u
 
 We will use passwordless authentification so you need to insert and you will get magic link on your email to login.
 
-**Hive UI URL**: 
+**Hive UI URL**: https://dancing-kangaroo-30df17.netlify.app
 
 ## Flow
 
