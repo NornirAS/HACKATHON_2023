@@ -49,10 +49,12 @@ const test = createHiveWS({
 test.open()
 
 // To test basic communication we will send data every 5 seconds
+let idx = 0
 setInterval(() => {
-  const random = Math.floor(Math.random() * results.length);
+  // const random = Math.floor(Math.random() * results.length);
   test.sendData({
-    SENDER: 'hackathon/default',
-    PAYLOAD: JSON.stringify(results[random])
+    SENDER: 'hackathon/data',
+    PAYLOAD: JSON.stringify(results[idx])
   })
+  idx++
 }, 5000)
