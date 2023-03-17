@@ -1,43 +1,58 @@
 # HIVE
 
-## Setup
+Everyone can use a Hive UI. It was build with limited features to make it more user friendly. There will be an option to explore more features on request.
 
-Each team will be granted with predefined domain, service, token, authToken, and username(email).
-- Subdomain (team name)
-- Token and AuthToken for authentication
-- Username (email)
-- Ghost of [DEFAULT SERVICE](./DEFAULT_SERVICE.md)
+## Login
+
+We will use passwordless authentification so you need to insert and you will get magic link on your email to login.
+
+**Hive UI URL**: 
 
 ## Flow
 
-1. To test that you can receive data from **Default Service** you need to see if you have ghosts for that service. Use **Get Ghosts** [API](https://github.com/NornirAS/HACKATHON_2023/blob/main/HIVE_API.md#get-ghost) to get all your ghosts. Once you got ghosts, you have everything to start the communication. Examples can be found below in [**COMMUNICATION**](#communication) section.
+1. Create subdomain - name it as your team name, or company name or whatever you want related to what you planning to build. Example .
 
-#### Read about the service in **EXAMPLES** section below.
+2. Create service - name it as what your service will do. Here you define data schema. Data shema whould be writen in XML format. Timeout is used by HTTP and define after what time channel will be closed if there will be no incomming messages.
 
-2. Create your own service. Use **Create Service** [API](https://github.com/NornirAS/HACKATHON_2023/blob/main/HIVE_API.md#create-service) to do so.
-
-3. Assign 1 ghost to that service. Use **Add Ghost** [API](https://github.com/NornirAS/HACKATHON_2023/blob/main/HIVE_API.md#add-ghost) to do so.
-
-4. Test the communication for that service.
-
-5. Add link to **Default Service**. Use **Update Links** [API](https://github.com/NornirAS/HACKATHON_2023/blob/main/HIVE_API.md#update-links) to do so.
-
-6. Even there are links between services, you need to tell the system what ghosts should talk to each other. Use **Add Morphed Ghost** [API](https://github.com/NornirAS/HACKATHON_2023/blob/main/HIVE_API.md#add-morphed-ghost) to do so. **NB!** refDomain, refService, refGhostID is from service that you lionking to. If service B linking to A, then you add ghost from service A to service B.
-
-7. Test the communication. You should be able to receive the data from **Default Service**.
-
-This is the basics, once you get yourself familiar with that flow, you can start to experiment.
-
-## EXAMPLES
+```xml
+<!-- First start with RTW tags. This is important!!! -->
+<RTW></RTW>
+<!-- You want to put data elements inside the RTW tag -->
+<!-- Fir example here you define DATA element. Now you can send and receive DATA to/from your service. -->
+<RTW><DATA></DATA></RTW>
+```
 
 [SERVICE](./SERVICE.md)
 
-## API
+3. Add ghost - ghost is digital reperesentation of physical object or instance of a software. Once you add ghost to your service you can test the communication.
 
-[HIVE API](./HIVE_API.md)
+4. Test the communication - First you can test with cURL. 
 
-## COMMUNICATION
+```bash
+# To send data
+curl -k https://{{ domain }}.cioty.com/{{ service }} -H "Synx-Cat: 1" -d "token={{ token }}&objectID=1&data=hello world"
+
+# To receive data
+curl -k https://{{ domain }}.cioty.com/{{ service }} -H "Synx-Cat: 4" -d "token={{ token }}&objectID=1"
+```
 
 [HTTP](./HTTP.md)
 
 [WEBSOCKET](./WEBSOCKET.md)
+
+5. NB! You need to have two services to complete this step. To be able connect services together you need to add link. Basically on service level you will say that service "A" want to receive data from service "B". And you need to specify exactly which data you interested in.
+
+```xml
+<!-- Service A -->
+<RTW><DATA>@domain/serviceA#PAYLOAD@</DATA></RTW>
+<!-- Service B -->
+<RTW><PAYLOAD></PAYLOAD></RTW>
+```
+
+As you can see you literally saying what and where data you interested in.
+
+6. NB! You need to have two services and at least 1 ghost for each to complete this step. You have services linked together, but you still need to perform an action on the ghost level. Each service can have multiple ghosts so here you need to tell the system which ghosts hould be connected.F From example above we have 2 services A and B. A linking to B. Then we need to add morphed ghost (service B) to ghost from service A. This way you can add multiple morphed ghosts.
+
+7. Test the communication. If you will send data to service B you should receive it on service A.
+ 
+This is the basics. If you want more please contact Nornir team.
