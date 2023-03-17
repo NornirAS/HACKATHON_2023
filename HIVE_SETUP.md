@@ -8,6 +8,8 @@ We will use passwordless authentification so you need to insert and you will get
 
 **Hive UI URL**: https://dancing-kangaroo-30df17.netlify.app
 
+token: aToken_0d27359cfe533b9c7a64b1f79474c7f797b38e22a9aaf02bd2332202624f62f2
+
 ## Flow
 
 1. Create subdomain - name it as your team name, or company name or whatever you want related to what you planning to build. Example .
