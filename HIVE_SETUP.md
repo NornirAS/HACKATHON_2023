@@ -8,7 +8,7 @@ We will use passwordless authentification so you need to insert and you will get
 
 **Hive UI URL**: https://dancing-kangaroo-30df17.netlify.app
 
-token: aToken_0d27359cfe533b9c7a64b1f79474c7f797b38e22a9aaf02bd2332202624f62f2
+token: aToken_36d8715e3531fd8e8c01fcbfd26bf5af1908e14f15014d2d14817b568bc0bb0e
 
 ## Flow
 
