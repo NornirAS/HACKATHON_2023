@@ -1,4 +1,4 @@
-# Default service
+# Data service
 This is an example service that will constantly send data and will be available for all participants. Collection of training data is performed with the help of IOT devices since the goal is to develop a AI based smoke detector device. The data can be used for any kind of scenarios. 
 Data is taken from a Kaggle [Smoke Detection Dataset | Kaggle](https://www.kaggle.com/datasets/deepcontractor/smoke-detection-dataset) and 
 The dataset is nearly 60.000 readings long.
@@ -31,18 +31,18 @@ The dataset is nearly 60.000 readings long.
   - NC0.5(Number concentration of particulate matter. This differs from PM because NC gives the actual number of particles in the air. The raw NC is also classified by the particle size: < 0.5 µm (NC0.5); 0.5 µm < 1.0 µm (NC1.0); 1.0 µm < 2.5 µm (NC2.5))
   - NC1.0(Number concentration of particulate matter. This differs from PM because NC gives the actual number of particles in the air. The raw NC is also classified by the particle size: < 0.5 µm (NC0.5); 0.5 µm < 1.0 µm (NC1.0); 1.0 µm < 2.5 µm (NC2.5);)
   - NC2.5(Number concentration of particulate matter. This differs from PM because NC gives the actual number of particles in the air. The raw NC is also classified by the particle size: < 0.5 µm (NC0.5); 0.5 µm < 1.0 µm (NC1.0); 1.0 µm < 2.5 µm (NC2.5))
-  - CNT(Sample counter
+  - CNT(Sample counter)
   - Fire Alarm ground truth is "1" if a fire is there
 
 ## Links
 
-serviceAddress = hackathon/default
+serviceAddress = hackathon/data
 
 To add link to this service update links of your service with serviceAddress above.
 
-## Ghost
+## Morphing a ghost
 
-Each team will have 1 ghost from that service.
+If you want receive data from this service add morphed ghost hackathon/data/1 to the ghost you own.
   
 ## Examples of use case
 
