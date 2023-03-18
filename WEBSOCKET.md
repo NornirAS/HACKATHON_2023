@@ -24,3 +24,5 @@ To be able to send and receive data to and from Hive, a user should be able to o
   5. Before sending a message, a user should send the address (ONLY ONCE - this is important),  where he wants to send it, but in our case, the sender and receiver are at the same address. The address should be sent as a JSON string “{\”url\”:\”{{ghostAddress}}\”}”. After the URL is sent, the user can send data.
 
 [JavaScript Library](https://github.com/NornirAS/hive-agent/blob/main/src/ws/README.md)
+
+[DEV KIT SOURCE CODE](https://github.com/NornirAS/hackathon-dev-kit/blob/main/src/config/AppConfig.h)
