@@ -52,3 +52,11 @@ Explain how other teams can get a ghost from your service.
 
   - Contact one of team members.
   - Provide UI.
+
+### Inline Script
+
+You can alter the date in this way:
+
+var txt = master.getValueByElement("TXT");
+master.updateValueOnElement("TXT", txt.toUpperCase());
+
