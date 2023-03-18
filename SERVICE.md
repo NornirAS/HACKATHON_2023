@@ -58,5 +58,6 @@ Explain how other teams can get a ghost from your service.
 You can alter the date in this way:
 
 var txt = master.getValueByElement("TXT");
+
 master.updateValueOnElement("TXT", txt.toUpperCase());
 
