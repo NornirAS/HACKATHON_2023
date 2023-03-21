@@ -8,11 +8,11 @@ We will use passwordless authentification so you need to insert and you will get
 
 **Hive UI URL**: domain.cioty.com
 
-token: aToken_36d8715e3531fd8e8c01fcbfd26bf5af1908e14f15014d2d14817b568bc0bb0e
+token:
 
-email: gio.elektronikk@gmail.com
+email:
 
-password: 17Kz78op11nP
+password:
 
 ## Flow
 
